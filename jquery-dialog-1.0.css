@@ -1,0 +1,64 @@
+html{
+	height:100%;
+}
+body{
+	position: relative;
+	min-height:100%;
+	font-size:14px;
+	font-family: Tahoma, Verdana,"Microsoft Yahei";
+	color:#333;
+}
+a{
+	text-decoration: none;
+	color:#333;
+}
+button{
+	font-family: "Microsoft Yahei",Arial,Helvetica;
+}
+.button{
+	margin-bottom:20px;
+}
+.dialog .qboooogle-disabled{
+	margin:0px;
+	padding:-20px;
+	position:absolute;
+	top:-100px;
+	right:0;
+	width:100%;
+	height:120%;
+	z-index:998;
+	background:rgb(60,60,60);
+}
+.dialog .qboooogle-container{
+	position:relative;
+	padding-bottom:32px;
+	z-index:999;
+	width:320px;
+	min-height:200px;
+	background:#fff;
+	border:1px solid #ddd;
+	border-radius:1%;
+	box-shadow:2px 2px 3px;
+}
+.dialog .qboooogle-close{
+    padding: 5px 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+	position:absolute;
+	top:4px;
+	right:6px;
+	background:rgba(220,2,2,1);
+}
+.dialog .qboooogle-footerbar{
+	position:absolute;
+	bottom:0;
+	left:0px;
+	width:100%;
+	padding:0px;
+	line-height:40px;
+	text-align:right;
+}
+.dialog .qboooogle-footerbar .qboooogle-button{
+	margin-right:12px;
+}
