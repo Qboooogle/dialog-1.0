@@ -1,5 +1,4 @@
 # <big>dialog-1.0</big>  
-<hr>  
 
 <b>
 ###版本说明
@@ -10,11 +9,10 @@
 > 
 </b>  
 
-<hr>
+
 
 <em>使用环境：chrome firefox ie:8.0+ ... 等主流浏览器</em>  
 
-<hr>  
 
 ####tip  one: 调用方法  
 > *        1: 引入jquery,bootstrap插件
@@ -41,7 +39,7 @@
 <hr>  
 
 ####tip three：事件处理函数说明  
-<code>
+<pre>
         事件处理函数    |  含义                        | 调用示例
         open()         |  打开对话框                  | _apiObj.open()  
         close()        |  关闭对话框                  | _apiObj.close()  
@@ -50,4 +48,4 @@
         setHtml()      |  设置对话框内html文本        | _apiObj.setHtml('<button class = "btn">按键1</button>')  
         getFooterbar() |  获取对话框按键              | _apiObj.getFooterbar()  
         isOpen()       |  判断对话框是否为打开状态    | _apiObj.isOpen()  
-</code>
+</pre>
