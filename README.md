@@ -45,7 +45,7 @@
         close()         | _apiObj.close()                                               |  关闭对话框                      
         resize()        | _apiObj.resize()                                              |  对话框自动调整大小             
         setContent()    | _apiObj.setContent('add text')                                |  设置或增加对话框显示内容        
-        <code>setHtml()       | _apiObj.setHtml('<button class = "btn"\>submit</button>")      |  设置对话框内html文本</code>            
+        setHtml()       | _apiObj.setHtml('&lt;button&gt; class = "btn" submit &lt;button&gt;")      |  设置对话框内html文本          
         getFooterbar()  | _apiObj.getFooterbar()                                        |  获取对话框按键                  
         isOpen()        | _apiObj.isOpen()                                              |  判断对话框是否为打开状态        
 </pre>
