@@ -20,7 +20,7 @@
 > *        3: 定义对话框容器(ps:<div class="dialog"></div>)
 > *        4: $(selector).dialog(options,callback(_myfunc)); (ps:$(".dialog").dialog({options},function(_myfunc){...}))  
 
-<hr>  
+* * *  
 
 ####tip  two：调用参数说明  
 <pre>
@@ -36,7 +36,7 @@
         footerbar       |       array   |       空              |       自定义按键
 </pre>  
 
-<hr>  
+* * *  
 
 ####tip three：事件处理函数说明  
 <pre>
@@ -45,7 +45,7 @@
         close()         | _apiObj.close()                                               |  关闭对话框                      
         resize()        | _apiObj.resize()                                              |  对话框自动调整大小             
         setContent()    | _apiObj.setContent('add text')                                |  设置或增加对话框显示内容        
-        setHtml()       | _apiObj.setHtml('<code><button class = "btn"\>submit</button></code>")      |  设置对话框内html文本            
+        <code>setHtml()       | _apiObj.setHtml('<button class = "btn"\>submit</button>")      |  设置对话框内html文本</code>            
         getFooterbar()  | _apiObj.getFooterbar()                                        |  获取对话框按键                  
         isOpen()        | _apiObj.isOpen()                                              |  判断对话框是否为打开状态        
 </pre>
