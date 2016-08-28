@@ -1,5 +1,6 @@
-# <big>dialog-1.0</big>
-<hr>
+# <big>dialog-1.0</big>  
+<hr>  
+
 <b>
 ###版本说明
 > * plugin   : dialog(基于jquery与bootstrap开发)
@@ -7,21 +8,25 @@
 > * author   : qboooogle
 > * last edit: 2016.8.25
 > 
-</b>
+</b>  
+
 <hr>
 
-<em>使用环境：chrome firefox ie:8.0+ ... 等主流浏览器</em>
-<hr>
-####tip  one: 调用方法
+<em>使用环境：chrome firefox ie:8.0+ ... 等主流浏览器</em>  
+
+<hr>  
+
+####tip  one: 调用方法  
 > *        1: 引入jquery,bootstrap插件
 > *        2: 添加dialog启动按键(ps:<button id="dialog_btn" class="but btn-default">打开对话框</button>)
 > *        3: 定义对话框容器(ps:<div class="dialog"></div>)
-> *        4: $(selector).dialog(options,callback(_myfunc)); (ps:$(".dialog").dialog({options},function(_myfunc){...}))
-<hr>
-####tip  two：调用参数说明
+> *        4: $(selector).dialog(options,callback(_myfunc)); (ps:$(".dialog").dialog({options},function(_myfunc){...}))  
+
+<hr>  
+
+####tip  two：调用参数说明  
 <pre>
         参数        |  类型      |  默认值       |  含义
-
         content    |  string    |  空           |  对话框内容
         title      |  string    |  空           |  对话框标题
         autoOpen   |  bool      |  false        |  是否自动打开对话框
@@ -31,12 +36,13 @@
         isModel    |  bool      |  true         |  是否为模态
         isOpen     |  bool      |  false        |  是否为打开状态
         footerbar  |  array     |  空           |  自定义按键
-</pre>
-<hr>
-####tip three：事件处理函数说明
+</pre>  
+
+<hr>  
+
+####tip three：事件处理函数说明  
 <code>
         事件处理函数    |  含义                        | 调用示例
-
         open()         |  打开对话框                  | _apiObj.open()  
         close()        |  关闭对话框                  | _apiObj.close()  
         resize()       |  对话框自动调整大小          | _apiObj.resize()  
