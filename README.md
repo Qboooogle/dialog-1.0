@@ -24,7 +24,7 @@
 
 ####tip  two：调用参数说明  
 <pre>
-        参数            |       类型     |       默认值           |       含义
+        参数            |       类型     |       默认值          |       含义
         content         |       string  |       空              |       对话框内容
         title           |       string  |       空              |       对话框标题
         autoOpen        |       bool    |       false           |       是否自动打开对话框
@@ -40,12 +40,12 @@
 
 ####tip three：事件处理函数说明  
 <pre>
-        事件处理函数     | 调用示例                                                      |  含义                          
+        事件处理函数     | 调用示例                                                       |  含义                          
         open()          | _apiObj.open()                                                |  打开对话框                      
         close()         | _apiObj.close()                                               |  关闭对话框                      
         resize()        | _apiObj.resize()                                              |  对话框自动调整大小             
         setContent()    | _apiObj.setContent('add text')                                |  设置或增加对话框显示内容        
-        setHtml()       | _apiObj.setHtml("\<button class = "btn"\>submit\</button\>")      |  设置对话框内html文本            
+        setHtml()       | _apiObj.setHtml("<html><button class = "btn"\>submit</button></html>")      |  设置对话框内html文本            
         getFooterbar()  | _apiObj.getFooterbar()                                        |  获取对话框按键                  
         isOpen()        | _apiObj.isOpen()                                              |  判断对话框是否为打开状态        
 </pre>
