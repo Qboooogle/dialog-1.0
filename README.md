@@ -24,7 +24,7 @@
 
 ####tip  two：调用参数说明  
 <pre>
-        参数            |       类型    |       默认值          |       含义
+        参数             |       类型    |       默认值          |       含义
         content         |       string  |       空              |       对话框内容
         title           |       string  |       空              |       对话框标题
         autoOpen        |       bool    |       false           |       是否自动打开对话框
@@ -40,12 +40,12 @@
 
 ####tip three：事件处理函数说明  
 <pre>
-        事件处理函数    |  含义                        | 调用示例
-        open()         |  打开对话框                  | _apiObj.open()  
-        close()        |  关闭对话框                  | _apiObj.close()  
-        resize()       |  对话框自动调整大小          | _apiObj.resize()  
-        setContent()   |  设置或增加对话框显示内容    | _apiObj.setContent('新增文本')  
-        setHtml()      |  设置对话框内html文本        | _apiObj.setHtml('<button class = "btn">按键1</button>')  
-        getFooterbar() |  获取对话框按键              | _apiObj.getFooterbar()  
-        isOpen()       |  判断对话框是否为打开状态    | _apiObj.isOpen()  
+        事件处理函数    |  含义                          | 调用示例
+        open()         |  打开对话框                    | _apiObj.open()  
+        close()        |  关闭对话框                    | _apiObj.close()  
+        resize()       |  对话框自动调整大小            | _apiObj.resize()  
+        setContent()   |  设置或增加对话框显示内容      | _apiObj.setContent('新增文本')  
+        setHtml()      |  设置对话框内html文本          | _apiObj.setHtml('<button class = "btn">按键1</button>')  
+        getFooterbar() |  获取对话框按键                | _apiObj.getFooterbar()  
+        isOpen()       |  判断对话框是否为打开状态      | _apiObj.isOpen()  
 </pre>
