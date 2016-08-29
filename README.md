@@ -24,16 +24,16 @@
 
 ####tip  two：调用参数说明  
 <pre>
-        参数             |       类型     |       默认值          |       含义
-        content         |       string  |       空              |       对话框内容
-        title           |       string  |       空              |       对话框标题
+        参数            |       类型     |       默认值           |       含义
+        content         |       string  |       空               |       对话框内容
+        title           |       string  |       空               |       对话框标题
         autoOpen        |       bool    |       false           |       是否自动打开对话框
         opacity         |       number  |       0.8             |       对话框可见度
         beforeOpen      |       function|       function(){}    |       打开对话框前触发事件
         afterClose      |       function|       function(){}    |       关闭对话框后触发事件
         isModel         |       bool    |       true            |       是否为模态
         isOpen          |       bool    |       false           |       是否为打开状态
-        footerbar       |       array   |       空              |       自定义按键
+        footerbar       |       array   |       空               |       自定义按键
 </pre>  
 
 * * *  
