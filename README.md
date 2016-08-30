@@ -16,8 +16,8 @@
 
 ####tip  one: 调用方法  
 > *        1: 引入jquery,bootstrap插件
-> *        2: 添加dialog启动按键(ps:<button id="dialog_btn" class="but btn-default">打开对话框</button>)
-> *        3: 定义对话框容器(ps:<div class="dialog"></div>)
+> *        2: 添加dialog启动按键(ps:&lt;button id="dialog_btn" class="but btn-default"&gt;打开对话框&lt;/button&gt;)
+> *        3: 定义对话框容器(ps:&lt;div class="dialog"&gt;&lt;/div&gt;)
 > *        4: $(selector).dialog(options,callback(_myfunc)); (ps:$(".dialog").dialog({options},function(_myfunc){...}))  
 
 * * *  
